@@ -1,0 +1,81 @@
+{
+  "name": "𝘽ِ𝘿َ𝗧𝙃َ𝙤𝙉ِِ",
+  "description": " 〔 سـورس بدثـــون 𝘽ِ𝘿َ𝗧𝙃َ𝙤𝙉ِِ 𓅛 〕التحـديث الجديـد افضـل سـورسـات تليثـون يـوزربـوت العربيـة : › عربـي بالكـامل › تحديثـات متواصـله › مبنـي ع آخـر اصـدار مـن لغـة بايثـون〔 Python 3.10.6 〕- مطـور السـورس : توفي العامري",
+  "logo": "https://telegra.ph/file/f052b3a49fb5fd71d36ac.png",
+  "keywords": [
+    "plugin",
+    "modular",
+    "productivity"
+  ],
+  "repository": "https://github.com/BDthon/zzsszzz",
+  "website": "#TODO",
+  "success_url": "#TODO",
+  "env": {
+    "ALIVE_NAME": {
+      "description": "هنا ضع اسم التلجرام الخاص بك",
+      "value": ""
+    },
+    "APP_ID": {
+      "description": "هنا ضع الاب ايدي الخاص بك يتكون من 8 ارقام", 
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "هنا ضع الايبي هاش الخاص بك",
+      "value": ""
+    },
+    "ENV": {
+      "description": "لا تغير هذه القيمه",
+      "value": "ANYTHING"
+    },
+    "COMMAND_HAND_LER": {
+      "description": "لا تغير هذه القيمه",
+      "value": "."
+    },
+    "STRING_SESSION": {
+      "description": "هنا ضع كود سيشن تيليثون او بايروجرام كود تيرمكس الخاص بك",
+      "value": "",
+      "required": false
+    },
+    "TG_BOT_TOKEN": {
+      "description": "هنا ضع توكن بوتك الذي صنعته",
+      "value": ""
+    },
+    "HEROKU_API_KEY": {
+      "description": "هنا ضع الايبي كي الخاص بحساب هيروكو من هذا الرابط https://dashboard.heroku.com/account",
+      "value": "",
+      "required": false
+    },
+    "HEROKU_APP_NAME": {
+      "description": "اسم التطبيق",
+      "value": "",
+      "required": false
+    },
+    "TZ": {
+      "description": "المنطقه الزمنيه من القارة الخاصه بك وعاصمه بلدك يجب ان يكون اول حرف كبير",
+      "value": "Asia/Baghdad",
+      "required": false
+    }
+  },
+  "addons": [{
+    "plan": "heroku-postgresql",
+    "options": {
+      "version": "12"
+    }
+  }],
+  "buildpacks": [{
+    "url":"https://github.com/heroku/heroku-buildpack-google-chrome"
+  },{
+    "url":"https://github.com/heroku/heroku-buildpack-chromedriver"
+  },{
+    "url": "https://github.com/riganf/heroku-buildpack-p7zip"
+  },{
+    "url": "https://github.com/heroku/heroku-buildpack-apt.git"
+  },{
+    "url": "https://github.com/chrismytton/heroku-buildpack-jq"
+  },{
+    "url": "https://github.com/rahulps1000/heroku-buildpack-nodejs"
+  },{
+    "url": "heroku/python"
+  }],
+  "stack": "heroku-22"
+}
